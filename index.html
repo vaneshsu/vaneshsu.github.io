@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+	<script src='script.js'></script>
+</head>
+<body>
+	<section id="home" class="home">
+		<div id="bg"></div>
+		<!-- responsive side nav -->
+		<nav id="mySidenav" class="sidenav">
+	  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  			<a href="Resume.pdf" target="_blank">resume</a>
+				<a href="#about">about</a>
+				<a href="#contact">contact</a>	
+		</nav>
+		<button id="nav" onclick="openNav()">&#9776;</button>
+		
+		<div class="row table fh">
+			<header class="table-cell fh text-center">
+				<h1 id="title" style="display: block;">Vanessa Hsu</h1>
+				<div class="tagline">
+					<p class="text-center" style="display: block;">I'm probably coding or eating french fries right now.</p>
+				</div>
+				<div class="nav" style="display: block;">
+					<nav id="nav" class="text-center">
+						<ul class="text-center">
+							<li><a href="Resume.pdf" target="_blank">resume</a></li>
+							<li><a href="#about">about</a></li>
+							<li><a href="#contact">contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+		</div>
+	</section>
+	<section id="about" class="about">
+		<div class="row table fh">
+			<div class="about">
+				<header>
+					<h2 id="about">About</h2>
+				</header>
+				<div class="pic">
+					<img src="meCollage.jpg" id="pics" alt="pictures of me doing a ballet pose, sitting on a cow statue, standing in front of the University of Washington, and presenting my project from my internship at Expedia"/>
+				</div>
+				<div class="content">
+					<p id="about-me">You'll most likely find me dancing around my room in Christmas pajamas to the Hamilton Soundtrack.</p>
+					<p><span id="about-categories">Skills:</span> Java, HTML, CSS, Javascript, Python, JQuery, Adobe Photoshop, Adobe Premiere, Adobe Illustrator, Final Cut Pro, Accessibility (I'm always looking to improve and learn more about these!)</p>
+					<p><span id="about-categories">Interested table Learn More About:</span> IOS, Robotics, Data Mining, Machine Learning</p>
+					<p><span id="about-categories">Other Passions:</span> Photography, Videography, Ballet, Graphic Design</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contact" class="contact">
+		<div class="row table fh">
+			<header class="text-center">
+				<h2 id="contact">Find Me...</h2>
+			</header>
+			<div class="row table text-center">
+				<a href="https://www.linkedin.com/in/vaneshsu" target="_blank"><img src="linkedin.png" id="social" alt="linked in"/></a>
+				<a href="https://www.instagram.com/vaneshsu/" target="_blank"><img src="insta.png" id="social" alt="instagram"/></a>
+				<a href="https://www.twitter.com/vaneshsu" target="_blank"><img src="twitter.png" id="social" alt="twitter"/></a>
+				<a href="mailto:vaneshsu@gmail.com" target="_blank"><img src="mail.png" id="social" alt="mail"/></a>
+			</div>
+			<div class="get-in-touch text-center">
+				<p>Let's get in touch.</p>
+			</div>
+		</div>
+	</section>
+	<footer class="text-center">
+		<p class="foot">&copy Vanessa Hsu | 2016 | Seattle</p>
+	</footer>
+</body>
+</html>
