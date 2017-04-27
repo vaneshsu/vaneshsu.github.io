@@ -35,7 +35,7 @@
 	    margin-left: 50px;
 	}
 	
-	button#nav {
+	button#open-nav {
 		background: lavender;
 		color: grey;
 	   	-webkit-filter: opacity(80%);
@@ -48,9 +48,10 @@
 		margin: 30px;
 		margin-bottom: 0;
 		z-index: 10;
+		position: fixed;
 	}
 	
-	button#nav:hover {
+	button#open-nav:hover {
 	   	cursor:pointer;
 		background: snow;
 	   	-webkit-filter: opacity(80%);
