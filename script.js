@@ -6,6 +6,7 @@
 	window.onload = function() {
 		$("close-nav").onclick = closeNav;
 		$("open-nav").onclick = openNav;
+		alert("Attention! Site under construction.")
 	};
 	function openNav() {
 		$("open-nav").style.display = "none";
